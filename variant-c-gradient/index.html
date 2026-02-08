@@ -1,0 +1,548 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Refined Craft | Turn Every Course Into a Personal Expert</title>
+    <meta name="description" content="Chat with AI trained on thousands of courses. Get summaries, dive deep, and turn principles into action—all running locally on your machine.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,700;1,400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <div class="badge">Refined Craft</div>
+                <h1 class="hero-headline">
+                    Never watch a course<br>
+                    just to forget it
+                </h1>
+                <p class="hero-sub">
+                    An AI trained on every course you're learning from. Chat with experts, extract frameworks, and turn knowledge into tools you can use today—not someday.
+                </p>
+                <div class="cta-group">
+                    <a href="#waitlist" class="btn-primary">Join the Alpha</a>
+                    <a href="#how-it-works" class="btn-secondary">See How It Works</a>
+                </div>
+                <div class="trust-badges">
+                    <div class="trust-item">
+                        <div class="trust-icon">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M12 2L2 7L12 12L22 7L12 2Z" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/>
+                                <path d="M2 17L12 22L22 17" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                <path d="M2 12L12 17L22 12" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+                        </div>
+                        <div class="trust-text">
+                            <div class="trust-number">1,000+</div>
+                            <div class="trust-label">Courses Ready</div>
+                        </div>
+                    </div>
+                    <div class="trust-item">
+                        <div class="trust-icon">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M20 6L9 17L4 12" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+                        </div>
+                        <div class="trust-text">
+                            <div class="trust-number">100%</div>
+                            <div class="trust-label">Open Source</div>
+                        </div>
+                    </div>
+                    <div class="trust-item">
+                        <div class="trust-icon">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <rect x="3" y="11" width="18" height="10" rx="2" stroke="currentColor" stroke-width="2"/>
+                                <path d="M7 11V7C7 4.79086 8.79086 3 11 3H13C15.2091 3 17 4.79086 17 7V11" stroke="currentColor" stroke-width="2"/>
+                            </svg>
+                        </div>
+                        <div class="trust-text">
+                            <div class="trust-number">Private</div>
+                            <div class="trust-label">Runs Locally</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="hero-visual">
+                <div class="chat-window">
+                    <div class="chat-message user">
+                        <div class="message-bubble">
+                            What's Daniel Priestley's approach to growing a business from zero?
+                        </div>
+                    </div>
+                    <div class="chat-message ai">
+                        <div class="message-avatar">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <circle cx="12" cy="12" r="10" fill="currentColor"/>
+                            </svg>
+                        </div>
+                        <div class="message-bubble">
+                            <div class="typing-indicator">
+                                <span></span><span></span><span></span>
+                            </div>
+                            <div class="message-content">
+                                Daniel's "Ascending Transaction Model" - move customers up the value ladder:<br><br>
+                                <span class="highlight-text">1. Free content</span> → builds trust<br>
+                                <span class="highlight-text">2. Low-ticket offer</span> → proves value<br>
+                                <span class="highlight-text">3. Core offer</span> → main transformation<br>
+                                <span class="highlight-text">4. High-ticket</span> → premium outcomes<br><br>
+                                Would you like me to help you design this for your business?
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="floating-element element-1"></div>
+                <div class="floating-element element-2"></div>
+                <div class="floating-element element-3"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Problem Section -->
+    <section class="problem">
+        <div class="container">
+            <div class="section-header">
+                <h2>You've spent hundreds of hours consuming courses</h2>
+                <p class="lead">But when it's time to apply what you learned... silence.</p>
+            </div>
+            <div class="problem-grid">
+                <div class="problem-card">
+                    <div class="icon-wrap">
+                        <span class="emoji">📚</span>
+                    </div>
+                    <h3>Information Overload</h3>
+                    <p>Dozens of courses. Thousands of lessons. No way to find that one framework when you need it.</p>
+                </div>
+                <div class="problem-card">
+                    <div class="icon-wrap">
+                        <span class="emoji">🧠</span>
+                    </div>
+                    <h3>Memory Fades Fast</h3>
+                    <p>You watch a brilliant lesson on Monday. By Friday, you can barely remember the title.</p>
+                </div>
+                <div class="problem-card">
+                    <div class="icon-wrap">
+                        <span class="emoji">🔨</span>
+                    </div>
+                    <h3>No Bridge to Action</h3>
+                    <p>Theory is great. But you need application—not just inspiration.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Solution Section -->
+    <section class="solution">
+        <div class="container">
+            <div class="solution-layout">
+                <div class="solution-text">
+                    <div class="eyebrow">The Solution</div>
+                    <h2>Every course becomes a personal expert</h2>
+                    <p class="intro">Refined Craft ingests your course library and turns it into an AI you can chat with. Not a search engine. Not a summarizer. An expert who knows every framework, every case study, every actionable principle.</p>
+                    <div class="benefits-list">
+                        <div class="benefit-item">
+                            <div class="benefit-icon">✨</div>
+                            <div class="benefit-content">
+                                <h4>Ask anything</h4>
+                                <p>"What's Seth Godin's take on positioning?" Get the answer instantly.</p>
+                            </div>
+                        </div>
+                        <div class="benefit-item">
+                            <div class="benefit-icon">🎯</div>
+                            <div class="benefit-content">
+                                <h4>Extract frameworks</h4>
+                                <p>Pull out the step-by-step processes you can actually use.</p>
+                            </div>
+                        </div>
+                        <div class="benefit-item">
+                            <div class="benefit-icon">⚡</div>
+                            <div class="benefit-content">
+                                <h4>Generate applications</h4>
+                                <p>Turn theory into prompts, templates, and action plans for your business.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="solution-visual">
+                    <div class="time-card">
+                        <div class="time-before">
+                            <div class="time-value">4 hours</div>
+                            <div class="time-label">Course length</div>
+                        </div>
+                        <div class="time-arrow">
+                            <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M20 5V35M20 35L10 25M20 35L30 25" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+                        </div>
+                        <div class="time-after">
+                            <div class="time-value gradient-text">8 minutes</div>
+                            <div class="time-label">To extract & apply</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- How It Works -->
+    <section id="how-it-works" class="how-it-works">
+        <div class="container">
+            <h2>From passive learning to active application</h2>
+            <div class="steps-container">
+                <div class="step">
+                    <div class="step-number">1</div>
+                    <h3>Ingest Your Courses</h3>
+                    <p>Point Refined Craft at your course library. We transcribe, analyze, and build a knowledge graph of every concept, framework, and case study.</p>
+                </div>
+                <div class="step">
+                    <div class="step-number">2</div>
+                    <h3>Chat With Experts</h3>
+                    <p>Ask questions like you're talking to the instructor. "How would this apply to B2B SaaS?" Get contextual, detailed answers—not generic summaries.</p>
+                </div>
+                <div class="step">
+                    <div class="step-number">3</div>
+                    <h3>Generate Action Plans</h3>
+                    <p>Turn principles into prompts. Frameworks into templates. Theory into tools you can use today—on your business, your project, your life.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Use Cases -->
+    <section class="use-cases">
+        <div class="container">
+            <h2>Real examples of what you can build</h2>
+            <div class="use-case-grid">
+                <div class="use-case">
+                    <div class="use-case-tag marketing">Marketing</div>
+                    <h3>Watch Russell Brunson's course</h3>
+                    <div class="arrow-down">↓</div>
+                    <div class="output">
+                        <strong>Generate:</strong> Sales funnel templates customized for your offer, including headline formulas, email sequences, and landing page structures.
+                    </div>
+                </div>
+                <div class="use-case">
+                    <div class="use-case-tag design">Design</div>
+                    <h3>Study Dieter Rams' principles</h3>
+                    <div class="arrow-down">↓</div>
+                    <div class="output">
+                        <strong>Generate:</strong> A design critique framework for your product. "Is this 'as little design as possible'? How can I make it more honest?"
+                    </div>
+                </div>
+                <div class="use-case">
+                    <div class="use-case-tag business">Business</div>
+                    <h3>Learn Alex Hormozi's offers</h3>
+                    <div class="arrow-down">↓</div>
+                    <div class="output">
+                        <strong>Generate:</strong> A value ladder for your service business, with pricing tiers that match his "grand slam offer" formula.
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Differentiation -->
+    <section class="differentiation">
+        <div class="container">
+            <div class="section-header">
+                <h2>Not another AI wrapper</h2>
+                <p class="lead">Refined Craft is built differently—on purpose.</p>
+            </div>
+            <div class="comparison-table">
+                <div class="comparison-row header">
+                    <div class="comparison-cell"></div>
+                    <div class="comparison-cell">Other AI Tools</div>
+                    <div class="comparison-cell highlight">Refined Craft</div>
+                </div>
+                <div class="comparison-row">
+                    <div class="comparison-cell label">Data</div>
+                    <div class="comparison-cell">Generic web scraping</div>
+                    <div class="comparison-cell highlight">Your curated course library</div>
+                </div>
+                <div class="comparison-row">
+                    <div class="comparison-cell label">Privacy</div>
+                    <div class="comparison-cell">Cloud-based, data uploaded</div>
+                    <div class="comparison-cell highlight">Runs 100% locally</div>
+                </div>
+                <div class="comparison-row">
+                    <div class="comparison-cell label">Output</div>
+                    <div class="comparison-cell">Summaries and highlights</div>
+                    <div class="comparison-cell highlight">Actionable frameworks & tools</div>
+                </div>
+                <div class="comparison-row">
+                    <div class="comparison-cell label">Access</div>
+                    <div class="comparison-cell">Subscription required</div>
+                    <div class="comparison-cell highlight">Open source, yours forever</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta-final">
+        <div class="container">
+            <div class="cta-box">
+                <h2>Join the alpha</h2>
+                <p class="cta-intro">Refined Craft is currently in private testing. We're looking for 100 learners who want to turn their course libraries into personal AI experts.</p>
+                <div class="cta-benefits">
+                    <div class="cta-benefit">
+                        <span class="check">✓</span> Free lifetime access for alpha users
+                    </div>
+                    <div class="cta-benefit">
+                        <span class="check">✓</span> Direct input on feature development
+                    </div>
+                    <div class="cta-benefit">
+                        <span class="check">✓</span> Help shape the future of learning
+                    </div>
+                </div>
+                <form id="waitlist" class="waitlist-form">
+                    <div class="form-group">
+                        <input type="email" placeholder="your@email.com" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="text" placeholder="What courses do you want to learn from?" required>
+                    </div>
+                    <button type="submit" class="btn-submit">Get Early Access</button>
+                    <p class="form-note">No spam. Just updates when we're ready for you.</p>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <div class="footer-logo">Refined Craft</div>
+                    <p>Open source. Local-first. Built for learners who ship.</p>
+                </div>
+                <div class="footer-links">
+                    <a href="#docs">Documentation</a>
+                    <a href="#github">GitHub</a>
+                    <a href="#privacy">Privacy</a>
+                    <a href="#terms">Terms</a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>© 2026 Refined Craft. Built with care in Las Vegas.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Smooth scroll
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                    target.scrollIntoView({ behavior: 'smooth', block: 'start' });
+                }
+            });
+        });
+
+        // Typing indicator animation
+        const typingIndicator = document.querySelector('.typing-indicator');
+        const messageContent = document.querySelector('.message-content');
+        
+        setTimeout(() => {
+            typingIndicator.style.display = 'none';
+            messageContent.style.display = 'block';
+        }, 2000);
+
+        // Form submission
+        document.getElementById('waitlist').addEventListener('submit', function(e) {
+            e.preventDefault();
+            alert('Thanks for your interest! We\'ll be in touch soon.');
+            this.reset();
+        });
+
+        // Scroll animations
+        const observerOptions = {
+            threshold: 0.1,
+            rootMargin: '0px 0px -50px 0px'
+        };
+
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('fade-in');
+                }
+            });
+        }, observerOptions);
+
+        document.querySelectorAll('.problem-card, .step, .use-case, .benefit-item').forEach((el) => {
+            observer.observe(el);
+        });
+
+        // Floating elements animation
+        const floatingElements = document.querySelectorAll('.floating-element');
+        floatingElements.forEach((el, index) => {
+            el.style.animationDelay = `${index * 0.5}s`;
+        });
+    </script>
+<!-- Variant Switcher -->
+
+</body>
+    <!-- Variant Switcher Overlay -->
+    <div class="variant-switcher">
+        <button class="variant-toggle" id="variant-toggle" aria-label="Toggle variant switcher">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <rect x="3" y="3" width="7" height="7" rx="1"/>
+                <rect x="14" y="3" width="7" height="7" rx="1"/>
+                <rect x="3" y="14" width="7" height="7" rx="1"/>
+            </svg>
+        </button>
+        <div class="variant-menu" id="variant-menu">
+            <div class="variant-menu-header">Choose Variant</div>
+            <a href="https://variant-a-editorial.vercel.app" class="variant-option" data-variant="a">
+                <span class="variant-name">A: Editorial</span>
+                <span class="variant-desc">Classic design with terminal demo</span>
+            </a>
+            <a href="https://refined-craft-variant-b.vercel.app" class="variant-option" data-variant="b">
+                <span class="variant-name">B: Brutalist</span>
+                <span class="variant-desc">Bold ASCII art aesthetic</span>
+            </a>
+            <a href="https://refined-craft-variant-c.vercel.app" class="variant-option" data-variant="c">
+                <span class="variant-name">C: Gradient</span>
+                <span class="variant-desc">Modern gradient design</span>
+            </a>
+        </div>
+    </div>
+    
+    <style>
+    .variant-switcher {
+        position: fixed;
+        top: 20px;
+        right: 20px;
+        z-index: 9999;
+    }
+    
+    .variant-toggle {
+        width: 48px;
+        height: 48px;
+        border-radius: 50%;
+        background: rgba(0, 0, 0, 0.8);
+        backdrop-filter: blur(10px);
+        border: 1px solid rgba(255, 255, 255, 0.1);
+        color: white;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        cursor: pointer;
+        transition: all 0.3s ease;
+    }
+    
+    .variant-toggle:hover {
+        background: rgba(0, 0, 0, 0.9);
+        transform: scale(1.1);
+    }
+    
+    .variant-menu {
+        position: absolute;
+        top: 60px;
+        right: 0;
+        min-width: 280px;
+        background: rgba(0, 0, 0, 0.95);
+        backdrop-filter: blur(20px);
+        border: 1px solid rgba(255, 255, 255, 0.1);
+        border-radius: 12px;
+        padding: 8px;
+        display: none;
+        flex-direction: column;
+        gap: 4px;
+        box-shadow: 0 20px 60px rgba(0, 0, 0, 0.5);
+    }
+    
+    .variant-menu.active {
+        display: flex;
+    }
+    
+    .variant-menu-header {
+        padding: 12px 16px;
+        font-size: 11px;
+        font-weight: 600;
+        text-transform: uppercase;
+        letter-spacing: 0.1em;
+        color: rgba(255, 255, 255, 0.5);
+        border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+        margin-bottom: 4px;
+    }
+    
+    .variant-option {
+        padding: 12px 16px;
+        border-radius: 8px;
+        text-decoration: none;
+        color: white;
+        transition: all 0.2s ease;
+        display: flex;
+        flex-direction: column;
+        gap: 4px;
+    }
+    
+    .variant-option:hover {
+        background: rgba(255, 255, 255, 0.1);
+    }
+    
+    .variant-option.active {
+        background: rgba(0, 217, 255, 0.2);
+        border: 1px solid rgba(0, 217, 255, 0.3);
+    }
+    
+    .variant-name {
+        font-weight: 600;
+        font-size: 14px;
+    }
+    
+    .variant-desc {
+        font-size: 12px;
+        opacity: 0.7;
+    }
+    
+    @media (max-width: 768px) {
+        .variant-switcher {
+            top: 10px;
+            right: 10px;
+        }
+        
+        .variant-menu {
+            min-width: 240px;
+        }
+    }
+    </style>
+    
+    <script>
+    (function() {
+        const toggle = document.getElementById('variant-toggle');
+        const menu = document.getElementById('variant-menu');
+        
+        if (toggle && menu) {
+            toggle.addEventListener('click', function(e) {
+                e.stopPropagation();
+                menu.classList.toggle('active');
+            });
+            
+            document.addEventListener('click', function() {
+                menu.classList.remove('active');
+            });
+            
+            menu.addEventListener('click', function(e) {
+                e.stopPropagation();
+            });
+            
+            // Highlight current variant
+            const currentUrl = window.location.hostname;
+            document.querySelectorAll('.variant-option').forEach(option => {
+                if (option.href.includes(currentUrl)) {
+                    option.classList.add('active');
+                }
+            });
+        }
+    })();
+    </script>
+</html>
