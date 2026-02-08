@@ -19,3 +19,10 @@ Thumbs.db
 .idea/
 *.swp
 *.swo
+
+# Additional security patterns
+*.key
+*.pem
+credentials.json
+secrets.json
+auth.json
